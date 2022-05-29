@@ -16,6 +16,9 @@ public class Department {
     private String departmentCode;
 
 
+    public Department() {
+    }
+
     public Department(Long departmentId) {
         this.departmentId = departmentId;
     }
