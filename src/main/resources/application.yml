@@ -21,6 +21,12 @@ welcome:
 server:
   port: '8082'
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
 ---
 
 spring:
